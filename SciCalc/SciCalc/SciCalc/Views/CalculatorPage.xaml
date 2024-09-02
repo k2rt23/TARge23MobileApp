@@ -82,5 +82,132 @@
             Style="{StaticResource ScientificOperatorButtonStyle}"
             Text="MEAN" />
 
+        <Button 
+    Grid.Row="6"
+    Grid.Column="4"
+    ZIndex="1"
+    Margin="6,10,6,4"
+    Style="{StaticResource OperatorButtonStyle}"
+    Text="AC" 
+    Command="{Binding ResetCommand}" />
+
+        <Button 
+    Grid.Row="6"
+    Grid.Column="0"
+    ZIndex="1"
+    Margin="6,10,6,4"
+    Style="{StaticResource OperatorButtonStyle}"
+    Text="7" 
+    Command="{Binding MathOperatorCommand}" />
+
+        <Button 
+  Grid.Row="6"
+  Grid.Column="1"
+  ZIndex="1"
+  Margin="6,10,6,4"
+  Style="{StaticResource OperatorButtonStyle}"
+  Text="8" 
+  Command="{Binding MathOperatorCommand}" />
+
+        <Button 
+Grid.Row="6"
+Grid.Column="2"
+ZIndex="1"
+Margin="6,10,6,4"
+Style="{StaticResource OperatorButtonStyle}"
+Text="9" 
+Command="{Binding MathOperatorCommand}" />
+
+        <Button 
+Grid.Row="7"
+Grid.Column="0"
+ZIndex="1"
+Margin="6,10,6,4"
+Style="{StaticResource OperatorButtonStyle}"
+Text="4" 
+Command="{Binding MathOperatorCommand}" />
+
+        <Button 
+Grid.Row="7"
+Grid.Column="1"
+ZIndex="1"
+Margin="6,10,6,4"
+Style="{StaticResource OperatorButtonStyle}"
+Text="5" 
+Command="{Binding MathOperatorCommand}" />
+
+        <Button 
+Grid.Row="7"
+Grid.Column="2"
+ZIndex="1"
+Margin="6,10,6,4"
+Style="{StaticResource OperatorButtonStyle}"
+Text="6" 
+Command="{Binding MathOperatorCommand}" />
+
+        <Button 
+Grid.Row="8"
+Grid.Column="0"
+ZIndex="1"
+Margin="6,10,6,4"
+Style="{StaticResource OperatorButtonStyle}"
+Text="3" 
+Command="{Binding MathOperatorCommand}" />
+
+        <Button 
+Grid.Row="8"
+Grid.Column="1"
+ZIndex="1"
+Margin="6,10,6,4"
+Style="{StaticResource OperatorButtonStyle}"
+Text="2" 
+Command="{Binding MathOperatorCommand}" />
+
+        <Button 
+Grid.Row="8"
+Grid.Column="2"
+ZIndex="1"
+Margin="6,10,6,4"
+Style="{StaticResource OperatorButtonStyle}"
+Text="1" 
+Command="{Binding MathOperatorCommand}" />
+
+        <Button 
+Grid.Row="9"
+Grid.Column="0"
+ZIndex="1"
+Margin="6,10,6,4"
+Style="{StaticResource OperatorButtonStyle}"
+Text="0" 
+Command="{Binding MathOperatorCommand}" />
+
+        <Button 
+Grid.Row="9"
+Grid.Column="1"
+ZIndex="1"
+Margin="6,10,6,4"
+Style="{StaticResource OperatorButtonStyle}"
+Text="." 
+Command="{Binding MathOperatorCommand}" />
+
+        <Button 
+Grid.Row="9"
+Grid.Column="2"
+ZIndex="1"
+Margin="6,10,6,4"
+Style="{StaticResource OperatorButtonStyle}"
+Text="=" 
+Command="{Binding MathOperatorCommand}" />
+
+        <Button 
+Grid.Row="9"
+Grid.Column="2"
+ZIndex="1"
+Margin="6,10,6,4"
+Style="{StaticResource OperatorButtonStyle}"
+Text="" 
+Command="{Binding MathOperatorCommand}" />
     </Grid>
 </ContentPage>
+    
+    
