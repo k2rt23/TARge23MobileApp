@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SciCalc", "SciCalc\SciCalc.csproj", "{F6BA753C-B437-4C78-AB26-409D0A97594E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SciCalc", "SciCalc\SciCalc.csproj", "{F6BA753C-B437-4C78-AB26-409D0A97594E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{08A19EE3-4367-4F7E-BB3F-D018E58BE18A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiPlanets2", "MauiPlanets2\MauiPlanets2.csproj", "{8F681100-753A-4A6F-B11F-97B778919139}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +21,12 @@ Global
 		{F6BA753C-B437-4C78-AB26-409D0A97594E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6BA753C-B437-4C78-AB26-409D0A97594E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F6BA753C-B437-4C78-AB26-409D0A97594E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8F681100-753A-4A6F-B11F-97B778919139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F681100-753A-4A6F-B11F-97B778919139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F681100-753A-4A6F-B11F-97B778919139}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8F681100-753A-4A6F-B11F-97B778919139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F681100-753A-4A6F-B11F-97B778919139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F681100-753A-4A6F-B11F-97B778919139}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
